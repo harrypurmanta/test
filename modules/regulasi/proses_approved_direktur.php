@@ -59,7 +59,7 @@ if (empty($_SESSION['loginID'])){
    
 if($pin!==''){
 // $projectName = explode('/',$_SERVER['PHP_SELF'])[1];
-$basePath = $_SERVER['DOCUMENT_ROOT']
+$basePath = $_SERVER['DOCUMENT_ROOT'];
 
 $text = 'https://dosis.cliniccoding.id/dosis/dokumen/regulasi/signed/'.$filename.$suffix.'.pdf';
 $path = $basePath.'/images/';
